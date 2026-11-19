@@ -1,0 +1,14 @@
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+RAW_DIR = PROJECT_ROOT / "data" / "raw"
+PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
+
+SEED = 20261119
+REFERENCE_DATE = "2026-11-19"
+N_PRODUCTS = 100
+N_CUSTOMERS = 50
+N_SUPPLIERS = 20
+N_WAREHOUSES = 3
+N_SALES_LINES = 5000
+N_PURCHASE_LINES = 1000
